@@ -1,0 +1,45 @@
+
+
+.main-container-section{
+    font-size: 18px;
+    height: 40vh;
+    width: 15vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.pokemon-profile{
+    position: absolute;
+    left: 76vw;
+    font-size: 20px;
+}
+
+.pokemon-profile img{
+    width: 15vw;
+   height: auto;
+}
+
+
+
+.sprite-carousel {
+   text-align: center;
+    font-size: 15px;
+    overflow-x: auto;
+    width: 30vw;
+   
+  }
+
+  .sprite-carousel h3 {
+    font-size: 20px;
+  }
+  
+  .carousel .slide img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .carousel{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
