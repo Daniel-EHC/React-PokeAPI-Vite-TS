@@ -1,5 +1,5 @@
 # React-PokeAPI-Vite-TS
-This is a React app built with TypeScript and Vite.
+This is a React app built with TypeScript and Vite Responsive.
 
 ## Getting Started
 
