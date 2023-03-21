@@ -1,10 +1,10 @@
 .main-container {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .main-container-aside {
@@ -46,5 +46,47 @@
 
 .asideLi {
     margin: 10px;
+
+}
+
+@media only screen and (max-width: 706px) {
+
+    .main-container {
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .main-container-aside {
+        height: 22vh;
+        width: 95vw;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .asideUl {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .asideLi {
+    text-align: center;
+    white-space: nowrap;
+      
+    }
+
+
 
 }

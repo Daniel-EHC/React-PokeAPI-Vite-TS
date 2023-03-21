@@ -1,6 +1,7 @@
 body{
+    min-width: 360px;
+    min-height: 760px;
     font-family: 'Staatliches', cursive;
    background-color:  #eceff1 ;
-   min-height: 400px;
-   min-width: 820px;
+
 }

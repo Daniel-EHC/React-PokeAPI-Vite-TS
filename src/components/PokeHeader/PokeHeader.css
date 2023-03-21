@@ -69,3 +69,36 @@ input{
         color: #fff;
     }
     
+
+    @media only screen and (max-width: 706px) { 
+        .container {
+            display: grid; 
+            grid-auto-columns: 1fr; 
+            grid-template-columns: 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 0px; 
+
+            
+            
+        }
+
+        .container-counter {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: stretch;
+            text-align: center;
+        }
+          
+          .container-search {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: stretch;
+        }
+        
+    }

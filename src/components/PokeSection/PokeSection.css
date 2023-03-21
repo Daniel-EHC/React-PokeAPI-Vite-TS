@@ -43,3 +43,64 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
   }
+
+  @media only screen and (max-width: 706px) {
+   
+    .main-container-section{
+      font-size: 25px;
+      height: 30vh;
+      width: 100vw;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      line-height: 1;
+  }
+
+
+    
+    .pokemon-profile img{
+      position: relative;
+      bottom: 80px;
+      width: 70vw;
+     height: auto;
+     margin-bottom: -100px;
+     
+  }
+    
+    .pokemon-profile{
+      position: relative;
+      left: 0;
+      
+      font-size: 30px;
+  }
+
+
+
+
+.sprite-carousel {
+  text-align: center;
+   font-size: 15px;
+   overflow-x: auto;
+   width: 100vw;
+  
+ }
+
+ .sprite-carousel h3 {
+   font-size: 40px;
+ }
+ 
+ .carousel .slide img {
+   width: 150px;
+   height: 150px;
+   object-fit: contain;
+ }
+
+ .carousel{
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+ }
+   
+ 
+  }
